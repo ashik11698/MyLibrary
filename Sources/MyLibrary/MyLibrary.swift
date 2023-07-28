@@ -1,6 +1,6 @@
-public struct MyLibrary {
-    public private(set) var text = "Hello, World!"
 
-    public init() {
+extension Int {
+    public func square() -> Int {
+        self * self
     }
 }
